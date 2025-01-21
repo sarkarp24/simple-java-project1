@@ -1,2 +1,2 @@
-<h1> Hello, Welcome to Maven World. Thanks you!! </h1>
+<h1> Hello, Welcome to Maven World. Thank you!! </h1>
 
