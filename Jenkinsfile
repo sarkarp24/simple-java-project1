@@ -33,7 +33,7 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                deploy adapters: [tomcat8(credentialsId: 'tomcat_user', path: '', url: 'http://54.191.84.186:8080/')], contextPath: 'web-app', war: '**/*.war'
+                deploy adapters: [tomcat8(credentialsId: 'tomcat_user', path: '', url: 'http://54.191.84.186:8080/')], contextPath: 'java-app', war: '**/*.war'
             }
         }
     }
