@@ -6,11 +6,13 @@ pipeline {
         }
     }
     stages {
+        /*
         stage('Git Checkout') {
             steps {
                 git branch: 'main', changelog: false, poll: false, url: 'https://github.com/sarkarp24/simple-java-project1.git'
             }
         }
+        */
         stage('Build') {
             steps {
                 sh 'mvn -B -DskipTests clean package'
